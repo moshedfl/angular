@@ -1,0 +1,65 @@
+
+body{
+   margin: 0;
+   text-align: center;
+}
+
+.stage1{
+    width: 32%;
+}
+
+#stage1{
+    color: rgb(255, 255, 255);
+    background-color: rgb(16, 0, 241);
+    height: 20vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    max-width: 200px;
+    margin: auto;
+}
+
+.stage1 .btn{
+    width: 50px;
+    height: 40px;
+    margin: 3px 0px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+#stage2{
+    min-height: 80vh;
+    margin-top: 20.05vh;
+}
+
+.table{
+    margin-bottom: 0;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.resultRows{
+  
+}
+
+.edit, .delete{
+   width: 90px;
+}
+
+#stage3{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0);
+    height: 12vh;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html dir="ltr">
+
+	<head>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="calculator.css">
+	</head>
+	<body id="body">
+	
+		<div class="stage" id="stage1">
+			<div class="stage1">
+				<input type="text" id="num1" class="form-control" onkeypress="numberOnly(event)"><br>
+				<input type="text" id="num2" class="form-control" onkeypress="numberOnly(event)">
+			</div>
+			<div class="stage1">
+				<button class="btn btn-secondary">+</button>
+				<button class="btn btn-secondary">-</button><br>
+				<button class="btn btn-secondary">*</button>
+				<button class="btn btn-secondary">/</button>
+			</div>
+			<div class="stage1">
+				<h1 id="sum"></h1>
+			</div>
+		</div>
+		<div class="stage" id="stage2">
+			<table class="table table-striped">
+				<tbody id="tbody"></tbody>
+			</table>
+		</div>
+		<div class="stage" id="stage3">
+			<h1>התווספה או נמחקה שורה</h1>	
+		</div>
+		
+		<script src="calculator.js"></script>
+			
+	</body>
+</html>
